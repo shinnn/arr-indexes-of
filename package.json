@@ -1,0 +1,38 @@
+{
+  "name": "arr-indexes-of",
+  "version": "1.0.0",
+  "description": "Like Array#indexOf but return all indexes",
+  "repository": "shinnn/arr-indexes-of",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "prebuild": "eslint --fix index.jsnext.js test.js",
+    "build": "rollup --format=cjs --input index.jsnext.js --output=index.js",
+    "pretest": "npm run-script build",
+    "test": "istanbul cover test.js"
+  },
+  "license": "MIT",
+  "module": "index.jsnext.js",
+  "jsnext:main": "index.jsnext.js",
+  "files": [
+    "index.js",
+    "index.jsnext.js"
+  ],
+  "keywords": [
+    "array",
+    "list",
+    "index",
+    "search",
+    "find",
+    "multiple"
+  ],
+  "devDependencies": {
+    "@shinnn/eslint-config": "^3.2.0",
+    "eslint": "^3.6.1",
+    "istanbul": "^0.4.5",
+    "rollup": "^0.36.1",
+    "tape": "^4.6.1"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn"
+  }
+}

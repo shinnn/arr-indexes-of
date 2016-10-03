@@ -1,0 +1,30 @@
+{
+  "name": "arr-indexes-of",
+  "description": "Like Array#indexOf but return all indexes",
+  "keywords": [
+    "array",
+    "list",
+    "index",
+    "search",
+    "find",
+    "multiple"
+  ],
+  "main": "index.jsnext.js",
+  "moduleType": "es6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinnn/arr-indexes-of.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
