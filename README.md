@@ -6,7 +6,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/arr-indexes-of.svg)](https://coveralls.io/r/shinnn/arr-indexes-of)
 [![devDependencies Status](https://david-dm.org/shinnn/arr-indexes-of/dev-status.svg)](https://david-dm.org/shinnn/arr-indexes-of?type=dev)
 
-Like [`Array#indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf), but return all indexes instead of the first one
+Like [`Array#indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), but return all indexes instead of the first one
 
 ```javascript
 import arrIndexesOf from 'arr-indexes-of';
@@ -48,6 +48,10 @@ Return: `Array`
 arrIndexesOf(['A', 'B', 'C', '-', 'A', 'B', 'C'], 'A'); //=> [0, 4]
 arrIndexesOf(['A', 'B', 'C', '-', 'A', 'B', 'C'], 'A', 4); //=> [4]
 ```
+
+## Related project
+
+[str-indexes-of](https://github.com/shinnn/str-indexes-of) - [`String#indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) version
 
 ## License
 
