@@ -1,6 +1,6 @@
 {
   "name": "arr-indexes-of",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Like Array#indexOf but return all indexes",
   "repository": "shinnn/arr-indexes-of",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
