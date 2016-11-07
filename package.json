@@ -25,6 +25,9 @@
     "find",
     "multiple"
   ],
+  "dependencies": {
+    "append-type": "^1.0.0"
+  },
   "devDependencies": {
     "@shinnn/eslint-config": "^3.3.0",
     "eslint": "^3.7.1",

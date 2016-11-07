@@ -9,7 +9,7 @@
     "find",
     "multiple"
   ],
-  "main": "index.jsnext.js",
+  "main": "module.js",
   "moduleType": "es6",
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
     "Shinnosuke Watanabe (https://github.com/shinnn)"
   ],
   "license": "MIT",
+  "dependencies": {
+    "append-type": "^1.0.0"
+  },
   "ignore": [
     "**/.*",
     "*.js",

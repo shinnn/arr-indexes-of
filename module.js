@@ -2,11 +2,13 @@
  * arr-indexes-of | MIT (c) Shinnosuke Watanabe
  * https://github.com/shinnn/arr-indexes-of
 */
+import appendType from 'append-type';
+
 export default function arrIndexesOf(arr, searchValue, fromIndex) {
   if (!Array.isArray(arr)) {
     throw new TypeError(
       'Expected an array, but got ' +
-      (arr === '' ? 'an empty string' : String(arr) + ' (' + typeof arr + ')') +
+      (arr === '' ? 'an empty string' : appendType(arr)) +
       '.'
     );
   }
@@ -15,7 +17,7 @@ export default function arrIndexesOf(arr, searchValue, fromIndex) {
     if (typeof fromIndex !== 'number') {
       throw new TypeError(
         'Expected an index where to start the searching forwards in the array, but got ' +
-        (fromIndex === '' ? 'an empty string' : String(fromIndex) + ' (' + typeof fromIndex + ')') +
+        (fromIndex === '' ? 'an empty string' : appendType(fromIndex)) +
         '.'
       );
     }
