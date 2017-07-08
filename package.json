@@ -29,14 +29,17 @@
     "append-type": "^1.0.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config": "^3.3.2",
-    "eslint": "^3.9.1",
+    "@shinnn/eslint-config": "^4.0.1",
+    "eslint": "^4.2.0",
     "istanbul": "^0.4.5",
-    "rollup": "^0.36.3",
+    "rollup": "^0.45.0",
     "rollup-config-module": "^1.0.0",
-    "tape": "^4.6.2"
+    "tape": "^4.7.0"
   },
   "eslintConfig": {
-    "extends": "@shinnn"
+    "extends": "@shinnn",
+    "rules": {
+      "prefer-arrow-callback": "off"
+    }
   }
 }
