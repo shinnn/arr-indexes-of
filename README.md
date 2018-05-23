@@ -1,10 +1,8 @@
 # arr-indexes-of
 
-[![NPM version](https://img.shields.io/npm/v/arr-indexes-of.svg)](https://www.npmjs.com/package/arr-indexes-of)
-[![Bower version](https://img.shields.io/bower/v/arr-indexes-of.svg)](https://github.com/shinnn/arr-indexes-of/releases)
+[![npm version](https://img.shields.io/npm/v/arr-indexes-of.svg)](https://www.npmjs.com/package/arr-indexes-of)
 [![Build Status](https://travis-ci.org/shinnn/arr-indexes-of.svg?branch=master)](https://travis-ci.org/shinnn/arr-indexes-of)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/arr-indexes-of.svg)](https://coveralls.io/r/shinnn/arr-indexes-of)
-[![devDependencies Status](https://david-dm.org/shinnn/arr-indexes-of/dev-status.svg)](https://david-dm.org/shinnn/arr-indexes-of?type=dev)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/arr-indexes-of.svg)](https://coveralls.io/github/shinnn/arr-indexes-of?branch=master)
 
 Like [`Array#indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), but return all indexes instead of the first one
 
@@ -23,25 +21,23 @@ Almost the same module as [indexes-of](https://github.com/dominictarr/indexes-of
 
 ## Installation
 
-### [npm](https://www.npmjs.com/)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
 ```
 npm install arr-indexes-of
 ```
 
-### [bower](https://bower.io/)
-
-```
-bower install arr-indexes-of
-```
-
 ## API
+
+```javascript
+import arrIndexesOf from 'arr-indexes-of';
+```
 
 ### arrIndexesOf(*array*, *searchValue* [, *fromIndex*])
 
 *array*: `Array`  
 *searchValue*:  any type (value to search for)  
-*fromIndex*: `Number` (index in the string where to begin searching)  
+*fromIndex*: `integer` (index in the string where to begin searching)  
 Return: `Array`
 
 ```javascript
@@ -55,6 +51,6 @@ arrIndexesOf(['A', 'B', 'C', '-', 'A', 'B', 'C'], 'A', 4); //=> [4]
 
 ## License
 
-Copyright (c) 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2016 - 2018 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
