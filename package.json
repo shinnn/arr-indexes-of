@@ -1,45 +1,45 @@
 {
-  "name": "arr-indexes-of",
-  "version": "1.0.1",
-  "description": "Like Array#indexOf but return all indexes",
-  "repository": "shinnn/arr-indexes-of",
-  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
-  "scripts": {
-    "prebuild": "eslint --fix --format=codeframe module.js test.js",
-    "build": "rollup --config=node:module",
-    "pretest": "npm run-script build",
-    "test": "istanbul cover test.js"
-  },
-  "license": "MIT",
-  "module": "module.js",
-  "jsnext:main": "module.js",
-  "files": [
-    "index.js",
-    "module.js"
-  ],
-  "keywords": [
-    "array",
-    "list",
-    "index",
-    "search",
-    "find",
-    "multiple"
-  ],
-  "dependencies": {
-    "append-type": "^1.0.0"
-  },
-  "devDependencies": {
-    "@shinnn/eslint-config": "^4.0.1",
-    "eslint": "^4.2.0",
-    "istanbul": "^0.4.5",
-    "rollup": "^0.45.0",
-    "rollup-config-module": "^1.0.0",
-    "tape": "^4.7.0"
-  },
-  "eslintConfig": {
-    "extends": "@shinnn",
-    "rules": {
-      "prefer-arrow-callback": "off"
-    }
-  }
+	"name": "arr-indexes-of",
+	"version": "1.0.2",
+	"description": "Like Array#indexOf but return all indexes",
+	"repository": "shinnn/arr-indexes-of",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"scripts": {
+		"prebuild": "eslint --fix --format=codeframe module.js test.js",
+		"build": "rollup --config=node:module",
+		"pretest": "npm run-script build",
+		"test": "istanbul cover test.js"
+	},
+	"license": "MIT",
+	"module": "module.js",
+	"jsnext:main": "module.js",
+	"files": [
+		"index.js",
+		"module.js"
+	],
+	"keywords": [
+		"array",
+		"list",
+		"index",
+		"search",
+		"find",
+		"multiple"
+	],
+	"dependencies": {
+		"append-type": "^1.0.0"
+	},
+	"devDependencies": {
+		"@shinnn/eslint-config": "^4.0.1",
+		"eslint": "^4.2.0",
+		"istanbul": "^0.4.5",
+		"rollup": "^0.45.0",
+		"rollup-config-module": "^1.0.0",
+		"tape": "^4.7.0"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn",
+		"rules": {
+			"prefer-arrow-callback": "off"
+		}
+	}
 }
