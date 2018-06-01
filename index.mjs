@@ -1,13 +1,10 @@
-'use strict';
-
-var appendType = require('append-type');
-
 /*!
  * arr-indexes-of | MIT (c) Shinnosuke Watanabe
  * https://github.com/shinnn/arr-indexes-of
 */
+import appendType from 'append-type';
 
-function arrIndexesOf(arr, searchValue, fromIndex) {
+export default function arrIndexesOf(arr, searchValue, fromIndex) {
 	if (!Array.isArray(arr)) {
 		throw new TypeError('Expected an array, but got ' +
       (arr === '' ? 'an empty string' : appendType(arr)) +
@@ -36,5 +33,3 @@ function arrIndexesOf(arr, searchValue, fromIndex) {
 		return results;
 	}, []);
 }
-
-module.exports = arrIndexesOf;

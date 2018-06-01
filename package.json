@@ -5,10 +5,10 @@
 	"repository": "shinnn/arr-indexes-of",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"scripts": {
-		"prebuild": "eslint --fix --format=codeframe module.js test.js",
+		"prebuild": "eslint --fix --format=codeframe index.mjs test.js",
 		"build": "rollup --config=node:module",
 		"pretest": "npm run-script build",
-		"test": "istanbul cover test.js"
+		"test": "nyc --reporter=html --reporter=text node test.js"
 	},
 	"license": "MIT",
 	"module": "module.js",
@@ -26,15 +26,15 @@
 		"multiple"
 	],
 	"dependencies": {
-		"append-type": "^1.0.0"
+		"append-type": "^1.0.1"
 	},
 	"devDependencies": {
-		"@shinnn/eslint-config": "^4.0.1",
-		"eslint": "^4.2.0",
-		"istanbul": "^0.4.5",
-		"rollup": "^0.45.0",
-		"rollup-config-module": "^1.0.0",
-		"tape": "^4.7.0"
+		"@shinnn/eslint-config": "^5.4.4",
+		"eslint": "^4.19.1",
+		"nyc": "^12.0.1",
+		"rollup": "^0.59.4",
+		"rollup-config-module": "^2.0.0",
+		"tape": "^4.9.0"
 	},
 	"eslintConfig": {
 		"extends": "@shinnn",
