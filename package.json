@@ -1,6 +1,6 @@
 {
 	"name": "arr-indexes-of",
-	"version": "1.0.2",
+	"version": "2.0.0-0",
 	"description": "Like Array#indexOf but return all indexes",
 	"repository": "shinnn/arr-indexes-of",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
@@ -11,11 +11,10 @@
 		"test": "nyc --reporter=html --reporter=text node test.js"
 	},
 	"license": "MIT",
-	"module": "module.js",
-	"jsnext:main": "module.js",
+	"module": "index.mjs",
 	"files": [
 		"index.js",
-		"module.js"
+		"index.mjs"
 	],
 	"keywords": [
 		"array",
