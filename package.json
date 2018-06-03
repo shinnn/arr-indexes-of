@@ -10,7 +10,7 @@
 		"pretest": "npm run-script build",
 		"test": "nyc --reporter=html --reporter=text node test.js"
 	},
-	"license": "MIT",
+	"license": "ISC",
 	"module": "index.mjs",
 	"files": [
 		"index.js",
@@ -36,9 +36,6 @@
 		"tape": "^4.9.0"
 	},
 	"eslintConfig": {
-		"extends": "@shinnn",
-		"rules": {
-			"prefer-arrow-callback": "off"
-		}
+		"extends": "@shinnn"
 	}
 }
