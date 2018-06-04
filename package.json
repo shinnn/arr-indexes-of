@@ -1,6 +1,6 @@
 {
 	"name": "arr-indexes-of",
-	"version": "2.0.0-0",
+	"version": "2.0.0",
 	"description": "Like Array#indexOf but return all indexes",
 	"repository": "shinnn/arr-indexes-of",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
@@ -30,7 +30,7 @@
 	"devDependencies": {
 		"@shinnn/eslint-config": "^5.4.4",
 		"eslint": "^4.19.1",
-		"nyc": "^12.0.1",
+		"nyc": "^12.0.2",
 		"rollup": "^0.59.4",
 		"rollup-config-module": "^2.0.0",
 		"tape": "^4.9.0"
