@@ -1,10 +1,10 @@
 # arr-indexes-of
 
 [![npm version](https://img.shields.io/npm/v/arr-indexes-of.svg)](https://www.npmjs.com/package/arr-indexes-of)
-[![Build Status](https://travis-ci.org/shinnn/arr-indexes-of.svg?branch=master)](https://travis-ci.org/shinnn/arr-indexes-of)
+[![Build Status](https://travis-ci.com/shinnn/arr-indexes-of.svg?branch=master)](https://travis-ci.com/shinnn/arr-indexes-of)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/arr-indexes-of.svg)](https://coveralls.io/github/shinnn/arr-indexes-of?branch=master)
 
-Like [`Array#indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), but return all indexes instead of the first one
+Like [`Array#indexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), but return all indexes instead of the first one
 
 ```javascript
 import arrIndexesOf from 'arr-indexes-of';
@@ -21,7 +21,7 @@ Almost the same module as [indexes-of](https://github.com/dominictarr/indexes-of
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install arr-indexes-of
@@ -47,7 +47,7 @@ arrIndexesOf(['A', 'B', 'C', '-', 'A', 'B', 'C'], 'A', 4); //=> [4]
 
 ## Related project
 
-[str-indexes-of](https://github.com/shinnn/str-indexes-of) - [`String#indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) version
+[str-indexes-of](https://github.com/shinnn/str-indexes-of) - [`String#indexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) version
 
 ## License
 
