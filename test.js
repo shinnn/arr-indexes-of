@@ -33,25 +33,25 @@ test('arrIndexesOf()', t => {
 
 	t.throws(
 		() => arrIndexesOf(1, 'a'),
-		/^TypeError.*Expected an array, but got 1 \(number\)\./,
+		/^TypeError.*Expected an array, but got 1 \(number\)\./u,
 		'should throw a type error when the first argument is not an array.'
 	);
 
 	t.throws(
 		() => arrIndexesOf('', 'a'),
-		/^TypeError.*Expected an array, but got an empty string\./,
+		/^TypeError.*Expected an array, but got an empty string\./u,
 		'should throw a type error when the first argument is an empty string.'
 	);
 
 	t.throws(
 		() => arrIndexesOf(['a'], 'b', 'c'),
-		/^TypeError.*Expected an index where to start the searching forwards in the array, but got c \(string\)\./,
+		/^TypeError.*Expected an index where to start the searching forwards in the array, but got c \(string\)\./u,
 		'should throw a type error when the third argument is not a number.'
 	);
 
 	t.throws(
 		() => arrIndexesOf(['a'], 'b', ''),
-		/^TypeError.*Expected an index where to start the searching forwards in the array, but got an empty string\./,
+		/^TypeError.*Expected an index where to start the searching forwards in the array, but got an empty string\./u,
 		'should throw a type error when the third argument is an empty string.'
 	);
 

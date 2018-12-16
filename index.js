@@ -7,7 +7,7 @@ var appendType = require('append-type');
  * https://github.com/shinnn/arr-indexes-of
 */
 
-function arrIndexesOf(arr, searchValue, fromIndex) {
+module.exports = function arrIndexesOf(arr, searchValue, fromIndex) {
 	if (!Array.isArray(arr)) {
 		throw new TypeError('Expected an array, but got ' +
       (arr === '' ? 'an empty string' : appendType(arr)) +
@@ -36,5 +36,3 @@ function arrIndexesOf(arr, searchValue, fromIndex) {
 		return results;
 	}, []);
 }
-
-module.exports = arrIndexesOf;
