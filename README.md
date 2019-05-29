@@ -1,7 +1,7 @@
 # arr-indexes-of
 
 [![npm version](https://img.shields.io/npm/v/arr-indexes-of.svg)](https://www.npmjs.com/package/arr-indexes-of)
-[![Build Status](https://travis-ci.com/shinnn/arr-indexes-of.svg?branch=master)](https://travis-ci.com/shinnn/arr-indexes-of)
+[![Github Actions](https://action-badges.now.sh/shinnn/arr-indexes-of)](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/results/shinnn/arr-indexes-of)
 [![codecov](https://codecov.io/gh/shinnn/arr-indexes-of/branch/master/graph/badge.svg)](https://codecov.io/gh/shinnn/arr-indexes-of)
 
 Like [`Array#indexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), but return all indexes instead of the first one
