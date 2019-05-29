@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/arr-indexes-of.svg)](https://www.npmjs.com/package/arr-indexes-of)
 [![Build Status](https://travis-ci.com/shinnn/arr-indexes-of.svg?branch=master)](https://travis-ci.com/shinnn/arr-indexes-of)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/arr-indexes-of.svg)](https://coveralls.io/github/shinnn/arr-indexes-of?branch=master)
+[![codecov](https://codecov.io/gh/shinnn/arr-indexes-of/branch/master/graph/badge.svg)](https://codecov.io/gh/shinnn/arr-indexes-of)
 
 Like [`Array#indexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), but return all indexes instead of the first one
 
@@ -51,4 +51,4 @@ arrIndexesOf(['A', 'B', 'C', '-', 'A', 'B', 'C'], 'A', 4); //=> [4]
 
 ## License
 
-[ISC License](./LICENSE) © 2018 Shinnosuke Watanabe
+[ISC License](./LICENSE) © 2018 - 2019 Watanabe Shinnosuke

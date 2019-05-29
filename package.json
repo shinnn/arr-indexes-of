@@ -1,16 +1,16 @@
 {
 	"name": "arr-indexes-of",
 	"version": "2.0.0",
-	"description": "Like Array#indexOf but return all indexes",
+	"description": "Like Array#indexOf() but return all indexes",
+	"author": "Watanabe Shinnosuke (https://github.com/shinnn)",
 	"repository": "shinnn/arr-indexes-of",
-	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"license": "ISC",
 	"scripts": {
 		"prebuild": "eslint .",
 		"build": "rollup --config=node:module",
 		"pretest": "npm run-script build",
-		"test": "nyc node test.js"
+		"test": "coverage test.mjs"
 	},
-	"license": "ISC",
 	"module": "index.mjs",
 	"files": [
 		"index.js",
@@ -25,21 +25,17 @@
 		"multiple"
 	],
 	"dependencies": {
-		"append-type": "^1.0.1"
+		"append-type": "^1.0.2"
 	},
 	"devDependencies": {
-		"@shinnn/eslint-config": "^6.8.7",
-		"eslint": "^5.10.0",
-		"nyc": "^13.1.0",
-		"nyc-config-common": "^1.0.1",
-		"rollup": "^0.68.0",
+		"@shinnn/eslint-config": "^6.10.4",
+		"coverage": "^0.3.3",
+		"eslint": "^5.16.0",
+		"rollup": "^1.12.4",
 		"rollup-config-module": "^2.0.2",
-		"tape": "^4.9.1"
+		"testit": "^3.1.0"
 	},
 	"eslintConfig": {
 		"extends": "@shinnn"
-	},
-	"nyc": {
-		"extends": "nyc-config-common"
 	}
 }
